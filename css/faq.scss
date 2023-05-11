@@ -1,11 +1,10 @@
 main {
   height: 100%;
-  padding: 30px;
-
+  padding: 10px 30px;
   .faqs {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 
     .faq {
       background-color: white;

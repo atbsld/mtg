@@ -16,6 +16,9 @@ html, body {
   html, body {
     background-image: none;
   }
+  html.open, body.open {
+    overflow: hidden;
+  }
 }
 html p, body p {
   text-align: justify;
@@ -148,6 +151,9 @@ header nav .menu-burger.open .menu-burger-icon::after {
   header nav .menu.show li {
     padding: 1rem;
   }
+  header nav .menu.show li:first-child {
+    margin-top: 40px;
+  }
   header nav .menu.show li a {
     color: white;
   }
@@ -169,6 +175,11 @@ header nav .menu-burger.open .menu-burger-icon::after {
   display: flex;
   width: 300%;
   height: 500px;
+}
+@media (max-width: 768px) {
+  .slider .slides {
+    height: 190px;
+  }
 }
 .slider .slides img {
   width: 100%;
