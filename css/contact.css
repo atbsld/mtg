@@ -6,7 +6,7 @@ main .form-container {
   width: 70%;
   margin: 0 auto;
   padding: 20px;
-  background-color: white;
+  background-color: #ffffff;
   color: rgba(0, 0, 0, 0.87);
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
@@ -34,7 +34,7 @@ main .form-container form button {
   cursor: pointer;
 }
 main .form-container form button:hover {
-  background-color: black;
+  background-color: #000000;
 }
 @media (max-width: 768px) {
   main .form-container {

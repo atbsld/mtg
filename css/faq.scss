@@ -1,13 +1,14 @@
 main {
   height: 100%;
   padding: 10px 30px;
+
   .faqs {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
     .faq {
-      background-color: white;
+      background-color: #ffffff;
       padding: 10px;
       color: rgba(0, 0, 0, 0.87);
       border-radius: 4px;

@@ -56,10 +56,5 @@ main .cards .card:nth-child(3) .card-image-wrapper div {
 main .cards .card .card-description {
   padding: 16px;
 }
-@media (max-width: 768px) {
-  main .cards {
-    flex-direction: column;
-  }
-}
 
 /*# sourceMappingURL=cards.css.map */
